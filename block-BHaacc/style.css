@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    background-image: linear-gradient(to right, rgba(67, 133, 207,0.8), rgba(112, 230, 125, 0.8)), url('assets/home-bg.jpg');
+    background-size: cover;
+    width: 1500px;
+    height: 700px;
+}
+h1{
+    color: white;
+    font-size: 24px;
+}
+.flex{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+i{
+    color: white;
+}
+nav a{
+    color: white;
+    margin-right: 18px;
+    text-decoration: none;
+}
+.btn{
+   background-color: red;
+   color: white;
+   width: 100px;
+   height: 20px;
+   text-decoration: none;
+   border-radius: 12px;
+   text-align: center;
+   font-weight: 600;
+}
+.flex2{
+    display: flex;
+    max-width: 1300px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 200px;
+    flex-basis: 50%;
+}
+.flex3{
+    display: flex;
+    max-width: 1300px;
+    justify-content: space-between;
+}
+h2{
+    color: white;
+    font-size: 44px;
+
+}
+.flex4{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.flex5{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: #EFEFEF;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.flex01{
+    display: flex; 
+}
